@@ -1,4 +1,3 @@
-require "pry"
 require "redis"
 require "redis/connection/hiredis"
 require "connection_pool"
