@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+require "simple_interactions"
+Faye::WebSocket.load_adapter("thin")
+
+SimpleInteractions::Server.start
