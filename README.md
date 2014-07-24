@@ -48,7 +48,7 @@ end
 ```
 
 ```javascript
-var client = new Faye.Client('http://localhost:8000/interactions');
+var client = new Faye.Client('http://localhost:9898/interactions');
 
 // 侦听
 var subscription = client.subscribe('/users/$user_id'), function(message) {
